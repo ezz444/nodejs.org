@@ -1,0 +1,6 @@
+jobs:
+- job: Linux
+  pool:
+    name: 'Azure Pipline'
+  steps:
+  - template: Pipelines-Templates/build-stage/build-web-temp.yaml  # Template reference
